@@ -145,4 +145,8 @@ public class Main {
         System.out.println(res);
     }
 
+    public void testMethod() {
+        //logic
+    }
+
 }
