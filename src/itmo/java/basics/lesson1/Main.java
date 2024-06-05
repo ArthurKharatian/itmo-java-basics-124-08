@@ -146,7 +146,7 @@ public class Main {
     }
 
     public void testMethod() {
-        //logic
+        System.out.println("Hello world!");
     }
 
 }
