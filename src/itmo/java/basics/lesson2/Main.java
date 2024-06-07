@@ -24,4 +24,21 @@ public class Main {
         System.out.println(totalPrice);
 
     }
+
+
+    public String overloadedMethod () {
+        return null;
+    }
+
+    public Long overloadedMethod (Integer integer) {
+        return null;
+    }
+
+    public String overloadedMethod (Integer integer, String str) {
+        return null;
+    }
+
+    public void overloadedMethod (Integer integer, String str, Color color) {
+
+    }
 }
