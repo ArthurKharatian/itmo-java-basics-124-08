@@ -1,8 +1,10 @@
-package itmo.java.basics.lesson2;
+package itmo.java.basics.lesson6;
+
+import itmo.java.basics.lesson2.Color;
 
 import java.util.Objects;
 
-public class Car {
+public class Car implements Movable {
     private String brand;
     private String model;
     private Integer seatPlace;
@@ -130,5 +132,15 @@ public class Car {
     @Override
     public int hashCode() {
         return Objects.hash(brand, model, color);
+    }
+
+    @Override
+    public void printTransportInfo() {
+        System.out.println(transportName());
+    }
+
+    @Override
+    public String transportName() {
+        return "Volvo";
     }
 }
