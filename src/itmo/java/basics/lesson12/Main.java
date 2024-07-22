@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 public class Main {
     public static void main(String[] args) {
         Thread myRunnable = new Thread(new MyRunnable());
-        MyThread myThread = new MyThread();
+//        MyThread myThread = new MyThread();
 
 //        myRunnable.start();
 //        myRunnable.run();
@@ -41,6 +41,7 @@ public class Main {
 //        } catch (InterruptedException e) {
 //            throw new RuntimeException(e);
 //        }
+
 
 
 
